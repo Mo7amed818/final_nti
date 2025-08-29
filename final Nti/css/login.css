@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-page {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background: #f7fff7;
+}
+
+.login-image {
+  flex: 1;
+  background: #e8fbe7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-image img {
+  width: 80%;
+  max-width: 500px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.login-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  background: #fff;
+  box-shadow: -5px 0 20px rgba(0, 0, 0, 0.05);
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.input-group label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: 700;
+  color: #2d572c;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin-bottom: 15px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.input:focus {
+  border-color: #3bb143;
+  box-shadow: 0 0 8px rgba(59, 177, 67, 0.3);
+  outline: none;
+}
+
+.forgot-password {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.forgot-password a {
+  font-size: 13px;
+  color: #3bb143;
+  text-decoration: none;
+}
+
+.login-button {
+  background: #3bb143;
+  color: #fff;
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-button:hover {
+  background: #2d572c;
+}
+
+.social-account-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.social-account-container .title {
+  font-size: 13px;
+  color: #888;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.social-accounts {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-button.google {
+  background: #db4437;
+  color: #fff;
+}
+.social-button.apple {
+  background: #000;
+  color: #fff;
+}
+.social-button.twitter {
+  background: #1da1f2;
+  color: #fff;
+}
+
+.social-button:hover {
+  transform: scale(1.1);
+}
+
+.agreement {
+  display: block;
+  margin-top: 20px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.agreement a {
+  text-decoration: none;
+  color: #3bb143;
+}
